@@ -1,0 +1,72 @@
+
+html { max-width: 1180px; }
+
+.wrapper {width: 90%; margin: 0 auto; padding-left: 115px;}
+
+header { text-align: center; text-transform: uppercase; font-family: serif, Gerorgia;}
+
+#MainContent { float: left; background:white;}
+
+#NavTop {list-style: none; background: silver; color: black; text-align: center; font-size: 20px; }
+ 
+ #NavTop ul li  {list-style:none;  display: inline-block; padding: 10px; text-align:center;}
+	
+	#NavTop ul a { text-decoration: none; color:black;}
+
+		#NavTop a:hover { background:black; color: white; padding: 5px;}
+	
+.NHLContent { margin-right: 300px; }	
+.AHLContent {padding-top: 300px; margin-right:300px;}
+.HockeyContent {padding-top: 300px; margin-right:50px;}
+	
+	
+	
+#NHLimage1 {float: left; overflow:auto; width:25%; min-width:300px; height: auto; margin-right:50px;}
+#AHLimage1 { float: left; overflow: auto; width:25%; min-width: 300px; height: auto; margin-right:50px;}
+#Hockeyimage1 {float: left; width:35%; min-width:300px; height: auto; margin-right: 50px;}		
+
+
+Footer { padding-top: 5px; border-top: 1px solid black; background:black; color: white; text-align: center;}
+
+h5 {font-size: 18px; }
+
+#FootNav ul { border-top: 1px solid white; list-style: none; background: black; color: white; text-align: center; font-size:20px;   }
+ 
+ #FootNav ul li  { display: inline-block; padding: 5px 5px 10px 10px;  }
+	
+	#FootNav ul  a { text-decoration: none; color: white; }
+	
+		#FootNav li a:hover { background:silver; padding: 5px;}
+		
+#ReturnToTop {float:left; }
+
+
+#PortfolioLink ul
+{
+list-style-type:none;
+position: fixed;
+right: 0;
+bottom: 100px;
+padding: 0;
+font-size: 10px;
+border-left: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+background:white;
+
+}
+
+#PortfolioLink li a
+{
+
+display:block;
+padding:10px;
+text-decoration: none; 
+color:black;
+word-wrap: break-word;
+}
+
+#PortfolioLink li a:hover
+{
+background:#0077b3;
+}

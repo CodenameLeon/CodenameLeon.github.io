@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+
+<html lang="en-US">
+
+<head>
+
+	<title>Pizza Order</title>
+	<link type="text/css" rel="stylesheet" href="FormsCSS.css">
+	<meta name="viewport" content="width=device-width">
+	<!--[if lt IE 9]>
+<script src="http://html5shiv.
+➝ googlecode.com/svn/trunk/
+➝ html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+<h1>Order Your Pizza!</h1>
+
+<img  id="PizzaPic" src="https://images.pexels.com/photos/263041/pexels-photo-263041.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Pizza Pie" />
+
+<section class="Info">
+	<h2>Your Informaton</h2>
+	<form action="http://cissweb.lorainccc.edu/useruploads/MZellers/ciss216lab.php"
+		method="post">
+		Name:<br>
+		<input type="text" name="frmName">
+		<br>
+		<br>
+		Phone Number:<br>
+		<input type="text" name="frmPhone">
+</section>
+		
+<section class="FormsClass">
+	<h2>Choose Your Pizza</h2>
+	<fieldset>
+	<legend>Size and Crust</legend>
+		<ul id="SizeandCrust">
+			<li><label for="frmSize" name="frmSize">Choose your Size:</label>
+				<select id="Size" name="frmSize">
+					<option value="S">Small</option>
+					<option value="M">Medium</option>
+					<option value="L">Large</option>
+				</select>
+			</li>
+			
+			<li><label="frmCrust" name="frmCrust">Choose Type of Crust:</label>
+				<select id="Crust" name="frmCrust">
+					<option value="1">Thin</option>
+					<option value="2">Thick</option>
+					<option value="3">Stuffed</option>
+				</select>
+			</li>
+		</ul>
+	</fieldset>
+
+
+	<br>
+	<fieldset>
+	<legend>Toppings:</legend>
+			Pepperoni:<input type="checkbox" name="frmPepperoni" value="Y">
+			<br>
+			Mushroom:<input type="checkbox" name="frmMushrooms" value="Y">
+			<br>
+			Extra Cheese:<input type="checkbox" name="frmCheese" value="Y">
+			<br>
+	</fieldset>
+
+
+	<br>
+	<fieldset>
+	<legend>Select for Delivery</legend>
+	<br>
+	Delivery:<input type="radio" name="frmDelivery" value="Y">
+	<br>
+	<br>
+	Extra Instructions:
+	<br>
+	<input type="text" name="frmInstructions">
+	
+	</fieldset>
+</section>	
+	  <input id="SubmitButton" type="submit" value="Submit">
+	
+</form>
+
+</section>
+
+
+<nav id="PortfolioLink">
+	<ul>
+	<li><a href="../Portfolio Main Page.html"> Return To Portfolio</a></li>
+	</ul>
+</nav>
+
+</body>
+
+</html>
